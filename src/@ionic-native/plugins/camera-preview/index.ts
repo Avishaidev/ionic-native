@@ -85,15 +85,10 @@ export interface CameraPreviewPictureOptions {
  *     console.log(err)
  *   });
  *
- * // Set the handler to run every time we take a picture
- * this.cameraPreview.setOnPictureTakenHandler().subscribe((result) => {
- *   console.log(result);
- *   // do something with the result
- * });
  *
  *
  * // picture options
- * const pictureOpts: PictureOptions = {
+ * const pictureOpts: CameraPreviewPictureOptions = {
  *   width: 1280,
  *   height: 1280,
  *   quality: 85
